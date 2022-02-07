@@ -1,21 +1,43 @@
 body {
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h1 {
-    color: navy;
-  }
+a {
+    text-decoration: none;
+    color: black;
+}
 
-header {
-    background-color: rgb(255, 252, 248);
-    border-style: solid;
-    border-radius: 1em;
-    padding: 5em;
+a:hover {
+    background: rgba(211, 211, 211, 0.199);
+}
+
+a:active {
+    background: rgba(211, 211, 211, 0.384);
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background: white;
+    padding: 1em;
+    border-bottom-style: double;
+    border-bottom-color: lightgray;
+}
+
+#logo {
+    display: inline-block;
 }
 
 nav {
-    background-color: rgb(255, 252, 248);
+    display: inline-block;
     padding: 1em;
+}
+
+nav a {
+    padding: 10px;
+    border-radius: 2px;
 }
 
 .nav {
@@ -28,13 +50,23 @@ nav {
     padding: 1em;
 }
 
-section {
-    background-color: rgb(255, 252, 248);
-    border-style: solid;
+#section-center {
+    margin-top: 150px;
+    background-color: rgba(211, 211, 211, 0.253);
     padding: 5em;
 }
 
+#thumbnail {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
 footer {
-    background-color: rgb(255, 252, 248);
-    text-align: center;    
+    height: 100%;
+    border-top: 1px solid lightgray;
+    text-align: left;
+    padding: 5em;
 }
