@@ -1,0 +1,40 @@
+body {
+    font-family: Tahoma;
+}
+
+h1 {
+    color: navy;
+  }
+
+header {
+    background-color: rgb(255, 252, 248);
+    border-style: solid;
+    border-radius: 1em;
+    padding: 5em;
+}
+
+nav {
+    background-color: rgb(255, 252, 248);
+    padding: 1em;
+}
+
+.nav {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+    padding: 1em;
+}
+
+section {
+    background-color: rgb(255, 252, 248);
+    border-style: solid;
+    padding: 5em;
+}
+
+footer {
+    background-color: rgb(255, 252, 248);
+    text-align: center;    
+}
